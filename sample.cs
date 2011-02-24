@@ -27,7 +27,7 @@ public class MainApp
 	{
 		if (args.Length < 2)
 		{
-			Console.WriteLine("usage: sample office-file out-file");
+			Console.WriteLine("usage: sample office-file-1 office-file-2 office-file-3 ...");
 			return;
 		}
 		ManualResetEvent[] doneEvents = new ManualResetEvent[args.Length];
